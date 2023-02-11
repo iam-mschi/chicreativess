@@ -1,0 +1,133 @@
+.about-me-expert h1 {
+    font-weight: 600;
+    letter-spacing: 0.6;
+    color: #33272A;
+}
+.about-me-expert {
+    font-family: kanit;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #33272A;
+    border-style: solid;
+    border-width: 2px;
+    width: 760px;
+    padding: 0px 21px 0px 21px;
+    margin-top: 30px;
+    background-color: #FFDFCC;
+}
+.expert {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.services-info {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #33272A;
+    width: 800px;
+    margin-top: 10px;
+    background-color: #FFC6C7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.services-info i {
+    font-size: 10px;
+}
+.services-info p {
+    font-family: kanit;
+    color: #33272A;
+    font-size: 20px;
+    padding: 0px 21px 0px 21px;
+    letter-spacing: 0.6px;
+}
+.social-image-bg {
+    box-shadow: -15px 20px 0px rgba(89, 74, 78, 0.5);
+}
+.expertise-two {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.expertise-one {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.expertise-two p {
+    margin-bottom: 0px;
+}
+.expertise-one p {
+    margin-bottom: 0px;
+}
+.expertise-two .any {
+    margin-bottom: 30px;
+}
+.how-to {
+    font-family: kanit;
+    margin: 0px 0px 0px 0px;
+    width: 800px;
+}
+.how-to h1 {
+    font-size: 25px;
+    color: #33272A;
+}
+.how-to p {
+    font-size: 20px;
+    color: #33272A;
+}
+@media only screen and (max-width: 900px) { 
+
+    .social-image-bg {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        padding: 60px 20px 25px 20px;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #33272A;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: -7px 20px 0px rgba(89, 74, 78, 0.5)
+    }
+    .about-me-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .expertise-two {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .expertise-one {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .expertise-two p {
+        margin-bottom: 0px;
+    }
+    .expertise-one p {
+        margin-bottom: 0px;
+    }
+    .expertise-two .any {
+        margin-bottom: 30px;
+    }
+    .services-info {
+        width: 400px;
+    }
+    .how-to {
+        font-family: kanit;
+        margin: 10px 0px 0px 0px;
+        width: 400px;
+    }
+    .how-to h1 {
+        font-size: 25px;
+        color: #33272A;
+    }
+    .how-to p {
+        font-size: 20px;
+        color: #33272A;
+    }
+    
+}
